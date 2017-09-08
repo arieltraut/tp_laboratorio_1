@@ -5,12 +5,12 @@
 int main()
 {
     char seguir='s';
-    int opcion=0,flagX=0, flagY=0;;
-    float x,y,resultadoSuma,resultadoResta,resultadoMulti,resultadoDiv;
+    int opcion=0,flagX=0, flagY=0;
+    float x,y,resultadoSuma,resultadoResta,resultadoMulti,resultadoDiv,resultadoFacto;
 
     while(seguir=='s')
     {
-        system("cls"); //limpia la consola
+        system("cls");
 
         if (flagX==0)
         {
@@ -102,13 +102,13 @@ int main()
                 {
                     printf("Antes de calcular el factorial debe ingresar el operando A\n");
                 }
-                else if (factorial(x)!=-1)
+                else if (factorial(x,&resultadoFacto)!=-1)
                 {
-                    printf("El resultado del factorial es %.2d\n",factorial(x));
+                    printf("El resultado del factorial es %.2f\n",resultadoFacto);
                 }
                 else
                 {
-                    printf("No se puede calcular el factorial de un numero negativo, ingrese nuevamente\n");
+                    printf("No se puede calcular el factorial de un numero negativo o decimal, ingrese nuevamente\n");
                 }
                 break;
             case 8:
@@ -134,6 +134,15 @@ int main()
 
                     multiplicacion(x,y,&resultadoMulti);
                     printf("El resultado de la multiplicacion es %.2f\n",resultadoMulti);
+
+                    if (factorial(x,&resultadoFacto)!=-1)
+                    {
+                        printf("El resultado del factorial de A es %.2f\n",resultadoFacto);
+                    }
+                    else
+                    {
+                        printf("No se puede calcular el factorial de un numero negativo o decimal, ingrese nuevamente\n");
+                    }
                 }
                 break;
             case 9:

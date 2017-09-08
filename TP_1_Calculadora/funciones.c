@@ -43,7 +43,7 @@ void resta (float numeroUno, float numeroDos, float* resultado)
 * \param Primer numero ingresado
 * \param Segundo numero ingresado
 * \param Resultado de la division
-* \return 0= OK **** -1= Error
+* \return (0)= OK **** (-1)= Error
 */
 int division (float numeroUno, float numeroDos, float* resultado)
 {
@@ -71,29 +71,27 @@ void multiplicacion (float numeroUno, float numeroDos, float*resultado)
 }
 
 /**
-* \brief
-* \param
-* \param
-* \param
-* \return
+* \brief Toma un numero, valida que sea entero y positivo y devuelve el factorial por referencia
+* \param Numero ingresado
+* \param Resultado del factorial
+* \return 0= OK **** -1= Error
 */
-int factorial (float numeroUno)
+int factorial (float numeroUno, float*resultado)
 {
-    int resp;
-    if(numeroUno>0)
+    int retorno = -1, auxiliar = 1,i;
+
+    if(numeroUno >= 0 && numeroUno - (int)numeroUno == 0 )
     {
-        resp=numeroUno * factorial(numeroUno-1);
-    }
-    else if(numeroUno==0)
-    {
-        return 1;
-    }
-    else
-    {
-        return -1;
+        for(i=numeroUno; i>=1;i--)
+        {
+            auxiliar = auxiliar * i;
+        }
+        *resultado = auxiliar;
+        retorno = 0;
     }
 
-    return (resp);
+
+    return retorno;
 }
 
 
