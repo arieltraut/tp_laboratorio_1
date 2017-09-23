@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1505660222 source:c:\users\alex\desktop\tp_2_cascara\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1505660236 c:\users\alex\desktop\tp_2_cascara\tp_2_cascara\funciones.h
+
+1505660936 source:c:\users\alex\desktop\tp_2_cascara\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1505688081 source:c:\users\alex\desktop\tp_2_cascara2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1505687410 c:\users\alex\desktop\tp_2_cascara2\tp_2_cascara\funciones.h
+
+1505688081 source:c:\users\alex\desktop\tp_2_cascara2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506133120 source:l:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506132699 l:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.h
+
+1506130563 source:l:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1505936365 source:f:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1505936048 f:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.h
+
+1505936048 source:f:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506119958 source:d:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506121705 d:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\funciones.h
+
+1506120509 source:d:\utn\clasesprogramacion1\tp\tp_2 (provisorio)\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506133742 source:c:\users\alex\apps, drivers\ariel\utn\tp_laboratorio_1\tp_laboratorio_1\tp_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506133348 c:\users\alex\apps, drivers\ariel\utn\tp_laboratorio_1\tp_laboratorio_1\tp_2\funciones.h
+
+1506130563 source:c:\users\alex\apps, drivers\ariel\utn\tp_laboratorio_1\tp_laboratorio_1\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506130563 source:c:\users\alex\apps, drivers\ariel\utn\tp_laboratorio_1\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1506133348 c:\users\alex\apps, drivers\ariel\utn\tp_laboratorio_1\tp_2\funciones.h
+
